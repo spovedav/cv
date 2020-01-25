@@ -89,8 +89,9 @@ function proyectos3(){
 ////////////   NIEVE  ////////////////
 function nieve(){
     var fecha = new Date();
-    
+    alert('s');
     if(fecha.getMonth() +1 === 1){
+        alert('sss');
         var template_nieve = `
                             <div class="snow foreground"></div>
                             <div class="snow foreground layered"></div>
@@ -99,7 +100,6 @@ function nieve(){
                             <div class="snow background"></div>
                             <div class="snow background layered"></div>
                             `;
-    console.log('si hay entro');
     }    
     document.getElementById('nieve').innerHTML = template_nieve;
 }
