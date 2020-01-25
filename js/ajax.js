@@ -89,9 +89,8 @@ function proyectos3(){
 ////////////   NIEVE  ////////////////
 function nieve(){
     var fecha = new Date();
-    alert('s');
-    if(fecha.getMonth() +1 === 1){
-        alert('sss');
+    
+    if(fecha.getMonth() +1 === 12){
         var template_nieve = `
                             <div class="snow foreground"></div>
                             <div class="snow foreground layered"></div>
