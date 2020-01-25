@@ -10,5 +10,12 @@
         "descripcion" : "Somos una empresa proveedora de servicios y productos de alta calidad para el análisis de pruebas de diagnóstico clínico.",
         "lenguaje" : "PHP",
         "url" : "http://distprolab.com/"   
+    },   
+    "distprolab2" : {
+        "imagen" : "images/proyectos/distprolab_web.jpg",
+        "descripcion" : "Somos una empresa proveedora de servicios y productos de alta calidad para el análisis de pruebas de diagnóstico clínico.",
+        "lenguaje" : "PHP",
+        "url" : "http://distprolab.com/"   
     }
+
 }
