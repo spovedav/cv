@@ -1,3 +1,7 @@
+////////////// VER NIEVE ////////////////
+nieve();
+
+
 // proyectos();
 function proyectos(){
     fetch('database/proyectos.txt')//database/proyectos.json
@@ -78,4 +82,24 @@ function proyectos3(){
 
         document.getElementById('contenido_job').innerHTML = template;
     });
+}
+
+
+
+////////////   NIEVE  ////////////////
+function nieve(){
+    var fecha = new Date();
+    
+    if(fecha.getMonth() +1 === 12){
+        var template_nieve = `
+                            <div class="snow foreground"></div>
+                            <div class="snow foreground layered"></div>
+                            <div class="snow middleground"></div>
+                            <div class="snow middleground layered"></div>
+                            <div class="snow background"></div>
+                            <div class="snow background layered"></div>
+                            `;
+    console.log('si hay entro');
+    }    
+    document.getElementById('nieve').innerHTML = template_nieve;
 }
