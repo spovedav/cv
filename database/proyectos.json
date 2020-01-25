@@ -1,0 +1,14 @@
+{
+    "euroequipos" : {
+        "imagen" : "images/proyectos/euroequipos_web.jpg",
+        "descripcion" : "Servicio de mantenimineto preventivo, predictivo y correctivo de equipos utilizados en la industria. Mantenimiento de equipos instrumentales electronicos.",
+        "lenguaje" : "PHP,MySQL",
+        "url" : "https://www.euroequipos.ec/"   
+    },
+    "distprolab" : {
+        "imagen" : "images/proyectos/distprolab_web.jpg",
+        "descripcion" : "Somos una empresa proveedora de servicios y productos de alta calidad para el análisis de pruebas de diagnóstico clínico.",
+        "lenguaje" : "PHP",
+        "url" : "http://distprolab.com/"   
+    }
+}
