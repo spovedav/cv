@@ -16,5 +16,12 @@
         "descripcion" : "Triaje medico echo en Laravel, para acceso al publico sin fines lucrativos",
         "lenguaje" : "LARAVEL",
         "url" : "#"   
+    },
+    "Triaje Medico" : {
+        "imagen" : "images/proyectos/pyrhon.png",
+        "descripcion" : "Triaje medico echo en Python(Flask) usando socket para traer datos en tiempo real, para acceso al publico sin fines lucrativos",
+        "lenguaje" : "PYTHON",
+        "url" : "https://github.com/spovedav/triaje-medico--flask"   
     }
+    
 }
