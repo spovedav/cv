@@ -91,7 +91,6 @@ function proyectos3(){
 
 certificados();
 function certificados(){
-    alert('d');
     $.get("database/certificados.json",function(datos){
         //var res = JSON.parse(datos);
         //console.log(datos);
