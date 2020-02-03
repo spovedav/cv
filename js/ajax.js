@@ -87,6 +87,41 @@ function proyectos3(){
 }
 
 
+
+
+certificados();
+function certificados(){
+    alert('d');
+    $.get("database/certificados.json",function(datos){
+        //var res = JSON.parse(datos);
+        //console.log(datos);
+        var template = '';
+        var cont = 0;
+        for(var row in datos){
+            cont = cont + 1;
+            var titulo = row.toUpperCase();
+            //var ruta_video = datos[row]['url_video'];
+
+                template+= `
+                <div class="col-4">
+                    <div class="card rounded-bottom text-center">
+                    <img src="`+datos[row]['imagen']+`" class="card-img-top" alt="img">
+                        <div class="card-body">
+                            <h5 class="card-title">`+titulo+`</h5>
+                            <p class="card-text">`+datos[row]['descripcion']+`</p>
+                        </div>
+                        <strong> <p class="text-muted">`+datos[row]['fecha']+`</p></strong>
+                    </div>
+                </div>
+                `;
+
+            //madal_video(datos[row]['url'],ruta);
+        }
+        document.getElementById('certificado').innerHTML = template;
+    });
+}
+
+
 /////////////  MODAL DE VIDEO  ////////////////////////
 function madal_video(titulo,ruta_video){
     var template_video = '';
