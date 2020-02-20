@@ -87,7 +87,7 @@ ul {
 
 /*--/header --*/
 
-header.banner_section {
+header._section {
     width: 100vw;
     height: 100vh;
     display: -webkit-box;
@@ -277,12 +277,12 @@ div#word-mark h1 a {
 }
 
 
-/*--/banner--*/
+/*--/--*/
 
 /*-- /header --*/
 
 .banner_section {
-    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background: url(../images/banner/banner.png) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
