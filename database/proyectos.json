@@ -26,6 +26,13 @@
         "lenguaje" : "PYTHON",
         "url" : "https://github.com/spovedav/triaje-medico--flask",
         "url_video" : "video/video.mp4"
+    },
+    "Quantimedic" : {
+        "imagen" : "images/proyectos/quantimedic.png",
+        "descripcion" : "Bienvenidos a Quantimedic unas de las mejores Distribuidora de Productos médicos y Odontologicos de las mejores marcas del mercado.",
+        "lenguaje" : "PHP,HTML,CSS",
+        "url" : "http://quantimedic.com/",
+        "url_video" : "video/video.mp4"
     }
     
 }
