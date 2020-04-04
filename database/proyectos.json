@@ -30,7 +30,7 @@
     "Quantimedic" : {
         "imagen" : "images/proyectos/quantimedic.png",
         "descripcion" : "Bienvenidos a Quantimedic unas de las mejores Distribuidora de Productos médicos y Odontologicos de las mejores marcas del mercado.",
-        "lenguaje" : "PHP,HTML,CSS",
+        "lenguaje" : "PHP",
         "url" : "http://quantimedic.com/",
         "url_video" : "video/video.mp4"
     }
